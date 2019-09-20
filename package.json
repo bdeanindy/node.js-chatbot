@@ -1,6 +1,6 @@
 {
   "name": "@zoomus/chatbot",
-  "version": "0.3.13",
+  "version": "0.3.14",
   "description": "Zoom Node.js Chatbot Library",
   "keywords": [
     "zoom",

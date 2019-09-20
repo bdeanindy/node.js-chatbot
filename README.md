@@ -228,12 +228,6 @@ zoomApp.request({
 
 > NOTE: To call the Zoom API's you must authenticate your Chatbot via the [OAuth2 Credentials Flow](#oauth2-credentials-flow).
 
-```js
-let { setting } = require('@zoomus/chatbot');
-
-setting.debug(true);
-```
-
 ## Examples
 
 ### Sending a message after receiving a users slash command.
@@ -377,6 +371,12 @@ Checkout our [Vote Chatbot Sample App](https://github.com/zoom/vote-chatbot) bui
 ## Debug
 
 To print out the HTTP request log, require the `setting` object and pass in `true`.
+
+```js
+let { setting } = require('@zoomus/chatbot');
+
+setting.debug(true);
+```
 
 ## Need Support?
 The first place to look for help is on our [Developer Forum](https://devforum.zoom.us/), where Zoom Marketplace Developers can ask questions for public answers.
