@@ -1,6 +1,6 @@
 {
   "name": "@zoomus/chatbot",
-  "version": "0.3.12",
+  "version": "0.3.13",
   "description": "Zoom Node.js Chatbot Library",
   "keywords": [
     "zoom",
@@ -29,7 +29,7 @@
     "url": "git+https://github.com/zoom/node.js-chatbot.git"
   },
   "bugs": {
-    "url": "https://github.com/zoom/node.js-chatbot/issues"
+    "url": "https://devforum.zoom.us/c/javascript-api-development"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
